@@ -1,5 +1,5 @@
 {
-  "name": "@adi/logger",
+  "name": "@aditsuru/logger",
   "version": "1.0.0",
   "description": "A colorful console logger with support for error stacks and metadata",
   "type": "module",
