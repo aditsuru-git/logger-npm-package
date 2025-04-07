@@ -6,18 +6,18 @@ const ANSI = {
   BOLD: "\x1b[1m",
   FG: {
     BLACK: "\x1b[30m",
-    WHITE: "\x1b[37m",
-    BRIGHT_RED: "\x1b[91m",
-    BRIGHT_YELLOW: "\x1b[93m",
-    BRIGHT_CYAN: "\x1b[96m",
-    BRIGHT_MAGENTA: "\x1b[95m",
-    GRAY: "\x1b[90m",
+    WHITE: "\x1b[97m",
+    BRIGHT_RED: "\x1b[91;1m",
+    BRIGHT_YELLOW: "\x1b[93;1m",
+    BRIGHT_CYAN: "\x1b[96;1m",
+    BRIGHT_MAGENTA: "\x1b[95;1m",
+    GRAY: "\x1b[90;1m",
   },
   BG: {
-    BRIGHT_RED: "\x1b[101m",
-    BRIGHT_YELLOW: "\x1b[103m",
-    BRIGHT_CYAN: "\x1b[106m",
-    BRIGHT_MAGENTA: "\x1b[105m",
+    BRIGHT_RED: "\x1b[101;1m",
+    BRIGHT_YELLOW: "\x1b[103;1m",
+    BRIGHT_CYAN: "\x1b[106;1m",
+    BRIGHT_MAGENTA: "\x1b[105;1m",
   },
 };
 
