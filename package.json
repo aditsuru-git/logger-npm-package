@@ -1,26 +1,26 @@
 {
-  "name": "@aditsuru/logger",
-  "version": "1.0.1",
-  "description": "A colorful console logger with support for error stacks and metadata",
-  "type": "module",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/aditsuru-git/logger-npm-package.git"
-  },
-  "keywords": [
-    "logger",
-    "console",
-    "debugging",
-    "colors"
-  ],
-  "author": "aditsuru-git",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/aditsuru-git/logger-npm-package/issues"
-  },
-  "homepage": "https://github.com/aditsuru-git/logger-npm-package#readme"
+	"name": "@aditsuru/logger",
+	"version": "1.0.2",
+	"description": "A colorful console logger with support for error stacks and metadata",
+	"type": "module",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/aditsuru-git/logger-npm-package.git"
+	},
+	"keywords": [
+		"logger",
+		"console",
+		"debugging",
+		"colors"
+	],
+	"author": "aditsuru-git",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/aditsuru-git/logger-npm-package/issues"
+	},
+	"homepage": "https://github.com/aditsuru-git/logger-npm-package#readme"
 }
