@@ -5,7 +5,7 @@ A lightweight, colorful console logger for Node.js with support for error stacks
 ## Installation
 
 ```sh
-npm install @adi/logger
+npm install @aditsuru/logger
 ```
 
 ## Usage
@@ -13,9 +13,9 @@ npm install @adi/logger
 ### Basic Usage
 
 ```javascript
-import { logger } from "@adi/logger";
+import { logger } from "@aditsuru/logger";
 // Or using CommonJS
-// const { logger } = require('@adi/logger');
+// const { logger } = require('@aditsuru/logger');
 
 // Simple logging
 logger.info("Application started");
@@ -28,13 +28,13 @@ logger.debug("Request payload:", { id: 123 });
 
 ```javascript
 try {
-  throw new Error("Something went wrong");
+	throw new Error("Something went wrong");
 } catch (error) {
-  // Automatically formats error stack
-  logger.error(error);
+	// Automatically formats error stack
+	logger.error(error);
 
-  // With additional metadata
-  logger.error(error, { userId: 123, requestId: "abc-123" });
+	// With additional metadata
+	logger.error(error, { userId: 123, requestId: "abc-123" });
 }
 ```
 
@@ -43,8 +43,8 @@ try {
 ```javascript
 // Single metadata object
 logger.info("User logged in", {
-  userId: 123,
-  role: "admin",
+	userId: 123,
+	role: "admin",
 });
 
 // Multiple metadata objects
@@ -77,7 +77,7 @@ If not specified, the default level is `debug`.
 You can create a custom logger instance with a specific log level:
 
 ```javascript
-import { Logger } from "@adi/logger";
+import { Logger } from "@aditsuru/logger";
 
 const customLogger = new Logger("info");
 ```
