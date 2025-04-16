@@ -157,4 +157,4 @@ Distributed under the MIT License. See `LICENSE` for more information.
 [issues-shield]: https://img.shields.io/github/issues/aditsuru-git/logger-npm-package.svg?style=for-the-badge
 [issues-url]: https://github.com/aditsuru-git/logger-npm-package/issues
 [license-shield]: https://img.shields.io/github/license/aditsuru-git/logger-npm-package.svg?style=for-the-badge
-[license-url]: https://github.com/aditsuru-git/logger-npm-package/blob/master/LICENSE.txt
+[license-url]: https://github.com/aditsuru-git/logger-npm-package/blob/master/LICENSE
