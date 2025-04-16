@@ -2,7 +2,7 @@
 
 <div align="center">
   <p align="center">
-    <img src="./icons/icon.png" alt="Logo" width="80" height="80">
+    <img src="https://github.com/aditsuru-git/logger-npm-package/blob/main/icons/icon.png?raw=true" alt="Logo" width="80" height="80">
     <h3 align="center">Node Logger</h3>
     <p align="center">
       <a href="https://github.com/aditsuru-git/logger-npm-package">View Demo</a>
@@ -43,7 +43,7 @@
 ## About
 
 <div align="center">
-  <img src="./icons/demo.png" alt="Product Screenshot" width="100%" style="max-width: 800px;">
+  <img src="https://github.com/aditsuru-git/logger-npm-package/blob/main/icons/demo.png?raw=true" alt="Product Screenshot" width="100%" style="max-width: 800px;">
 </div>
 
 A lightweight, colorful console logger for Node.js with support for error stacks, metadata, and customizable log levels.
