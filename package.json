@@ -1,6 +1,6 @@
 {
 	"name": "@aditsuru/logger",
-	"version": "1.0.2",
+	"version": "1.0.3",
 	"description": "A colorful console logger with support for error stacks and metadata",
 	"type": "module",
 	"main": "index.js",

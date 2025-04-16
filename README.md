@@ -1,6 +1,56 @@
-# Lightweight Simple Logger
+<a id="readme-top"></a>
+
+<div align="center">
+  <p align="center">
+    <img src="./icons/icon.png" alt="Logo" width="80" height="80">
+    <h3 align="center">Node Logger</h3>
+    <p align="center">
+      <a href="https://github.com/aditsuru-git/logger-npm-package">View Demo</a>
+      ·
+      <a href="https://github.com/aditsuru-git/logger-npm-package/issues/new?labels=bug&template=bug-report---.md">Report Bug</a>
+      ·
+      <a href="https://github.com/aditsuru-git/logger-npm-package/issues/new?labels=enhancement&template=feature-request---.md">Request Feature</a>
+    </p>
+  </p>
+</div>
+
+[![Contributors][contributors-shield]][contributors-url]
+[![Forks][forks-shield]][forks-url]
+[![Stargazers][stars-shield]][stars-url]
+[![Issues][issues-shield]][issues-url]
+[![License][license-shield]][license-url]
+
+<!-- TABLE OF CONTENTS -->
+<details>
+  <summary>Table of Contents</summary>
+  <ol>
+    <li>
+      <a href="#about">About The Project</a>
+    </li>
+    <li>
+      <a href="#getting-started">Getting Started</a>
+      <ul>
+        <li><a href="#installation">Installation</a></li>
+      </ul>
+    </li>
+    <li><a href="#usage">Usage</a></li>
+    <li><a href="#license">License</a></li>
+  </ol>
+</details>
+
+<!-- ABOUT THE PROJECT -->
+
+## About
+
+<div align="center">
+  <img src="./icons/demo.png" alt="Product Screenshot" width="100%" style="max-width: 800px;">
+</div>
 
 A lightweight, colorful console logger for Node.js with support for error stacks, metadata, and customizable log levels.
+
+## Getting Started
+
+To get started with the logger, follow these simple steps:
 
 ## Installation
 
@@ -51,7 +101,7 @@ logger.info("User logged in", {
 logger.debug("Processing request", { method: "GET" }, { path: "/api/users" });
 ```
 
-## Log Levels
+### Log Levels
 
 Configure the logging level by setting the `LOG_LEVEL` environment variable:
 
@@ -72,7 +122,7 @@ Available levels (in order of verbosity):
 
 If not specified, the default level is `debug`.
 
-## Custom Logger Instance
+### Custom Logger Instance
 
 You can create a custom logger instance with a specific log level:
 
@@ -82,6 +132,29 @@ import { Logger } from "@aditsuru/logger";
 const customLogger = new Logger("info");
 ```
 
+<!-- LICENSE -->
+
 ## License
 
-MIT
+Distributed under the MIT License. See `LICENSE` for more information.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<h1></h1>
+
+<div align="center">
+  <img src="https://ik.imagekit.io/aditsuru/Personal/footer.png?updatedAt=1744794750533" alt="Footer Banner" width="100%" style="max-width: 1200px;">
+</div>
+
+<!-- MARKDOWN LINKS & IMAGES -->
+
+[contributors-shield]: https://img.shields.io/github/contributors/aditsuru-git/logger-npm-package.svg?style=for-the-badge
+[contributors-url]: https://github.com/aditsuru-git/logger-npm-package/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/aditsuru-git/logger-npm-package.svg?style=for-the-badge
+[forks-url]: https://github.com/aditsuru-git/logger-npm-package/network/members
+[stars-shield]: https://img.shields.io/github/stars/aditsuru-git/logger-npm-package.svg?style=for-the-badge
+[stars-url]: https://github.com/aditsuru-git/logger-npm-package/stargazers
+[issues-shield]: https://img.shields.io/github/issues/aditsuru-git/logger-npm-package.svg?style=for-the-badge
+[issues-url]: https://github.com/aditsuru-git/logger-npm-package/issues
+[license-shield]: https://img.shields.io/github/license/aditsuru-git/logger-npm-package.svg?style=for-the-badge
+[license-url]: https://github.com/aditsuru-git/logger-npm-package/blob/master/LICENSE.txt
